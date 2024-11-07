@@ -31,3 +31,8 @@
     font-weight: 600;
 }
 
+.nav-link:hover{
+    color: black;
+    cursor: pointer;
+}
+

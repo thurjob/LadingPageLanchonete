@@ -1,6 +1,6 @@
 #home{
     display: flex;
-    min-height: calc(100v- 91px);
+    min-height: calc(100vh - 91px);
     position: relative;
     justify-content: space-between;
 }
@@ -8,12 +8,11 @@
     width: 35%;
     display: flex;
     flex-direction: column;
-    gap: 28px;
-    /* margin-top: 5%; */
+    gap: 25px;
 
 }
 .title{
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: var(--color-neutra-1);
 }
 
@@ -59,7 +58,7 @@
 
 .shape{
     background-color: var(--color-primary-2);
-    height: 90%;
+    height: 87%;
     width: 50%;
     position: absolute;
     border-radius: 30% 30% 0% 20%;
