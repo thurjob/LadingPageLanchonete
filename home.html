@@ -6,6 +6,7 @@
     <title>Lanchonete Voucher</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Styles/style.css">
+    <script src="js/menu.js" defer></script>
 </head>
 
 <body>
@@ -16,7 +17,7 @@
             <i class="fa-solid fa-burger nav-logo">Food</i>
             
             <ul class="nav-list">
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a href="#home" class="nav-link">HOME</a>
                 </li>
                 <li class="nav-item">
@@ -34,9 +35,22 @@
             <button class="btn-padrao">
                 Peça Aqui
             </button>
-
+            
         </nav>
-
+        <button class="mobile_btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="mobile_menu">
+            <ul class="mobile_nav_lis">
+                <li class="nav-item"><a href="#home">HOME</a></li>
+                <li class="nav-item"><a href="#cardapio"></a>CARDÁPIO</li>
+                <li class="nav-item"><a href="#depoimentos"></a>DEPOIMENTOS</li>
+                <li class="nav-item"><a href="#rodape"></a>FOOTER</li>
+            </ul>
+            <button class="btn-padrao">
+                Peça Aqui
+            </button>
+        </div>
     </header>
 
     <section class="slider">
